@@ -1,0 +1,152 @@
+[
+  {
+    "Version": 1,
+    "Key": "2736448",
+    "Type": "City",
+    "Rank": 75,
+    "LocalizedName": "Autonomista",
+    "Country": {
+      "ID": "BR",
+      "LocalizedName": "Brazil"
+    },
+    "AdministrativeArea": {
+      "ID": "MS",
+      "LocalizedName": "Mato Grosso Do Sul"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "305611",
+    "Type": "City",
+    "Rank": 82,
+    "LocalizedName": "Autol",
+    "Country": {
+      "ID": "ES",
+      "LocalizedName": "Spain"
+    },
+    "AdministrativeArea": {
+      "ID": "RI",
+      "LocalizedName": "La Rioja"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "135439",
+    "Type": "City",
+    "Rank": 83,
+    "LocalizedName": "Autoire",
+    "Country": {
+      "ID": "FR",
+      "LocalizedName": "France"
+    },
+    "AdministrativeArea": {
+      "ID": "46",
+      "LocalizedName": "Lot"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "133428",
+    "Type": "City",
+    "Rank": 83,
+    "LocalizedName": "Autoreille",
+    "Country": {
+      "ID": "FR",
+      "LocalizedName": "France"
+    },
+    "AdministrativeArea": {
+      "ID": "70",
+      "LocalizedName": "Haute-Saône"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "133909",
+    "Type": "City",
+    "Rank": 83,
+    "LocalizedName": "Autouillet",
+    "Country": {
+      "ID": "FR",
+      "LocalizedName": "France"
+    },
+    "AdministrativeArea": {
+      "ID": "78",
+      "LocalizedName": "Yvelines"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2307816",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Auto Posto Bpa Ltda.",
+    "Country": {
+      "ID": "BR",
+      "LocalizedName": "Brazil"
+    },
+    "AdministrativeArea": {
+      "ID": "SP",
+      "LocalizedName": "São Paulo"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "3399089",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Autobusové nádraží",
+    "Country": {
+      "ID": "CZ",
+      "LocalizedName": "Czechia"
+    },
+    "AdministrativeArea": {
+      "ID": "32",
+      "LocalizedName": "Plzeň"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "3395482",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Autodrom",
+    "Country": {
+      "ID": "CZ",
+      "LocalizedName": "Czechia"
+    },
+    "AdministrativeArea": {
+      "ID": "42",
+      "LocalizedName": "Ústí nad Labem"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "3402479",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Autobusové nádraží",
+    "Country": {
+      "ID": "CZ",
+      "LocalizedName": "Czechia"
+    },
+    "AdministrativeArea": {
+      "ID": "64",
+      "LocalizedName": "South Moravian"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "3398544",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Autobusové nádraží",
+    "Country": {
+      "ID": "CZ",
+      "LocalizedName": "Czechia"
+    },
+    "AdministrativeArea": {
+      "ID": "80",
+      "LocalizedName": "Moravian-Silesian"
+    }
+  }
+]
