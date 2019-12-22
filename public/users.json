@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Maria",
+    "src": "1",
+    "messages": [
+      {
+        "message1": "Close your eyes.",
+        "message2": "Ok",
+        "message3": "What fo you see?",
+        "message4": "Nothing",
+        "message5": "That's my life without you"
+      }
+    ]
+  },
+  {
+    "name": "Sara",
+    "src": "2",
+    "messages": [
+      {
+        "message1": "Hey Sara",
+        "message2": "How are you?",
+        "message3": "What are you doing"
+      }
+    ]
+  },
+  {
+    "name": "David",
+    "src": "3",
+    "messages": [
+      {
+        "message1": "So I got a new Tesla Model X, it drives itself!",
+        "message2": "Nice! Where is it?",
+        "message3": "No idea..."
+      }
+    ]
+  },
+  {
+    "name": "Michael",
+    "src": "4",
+    "messages": [
+      {
+        "message1": "Man, me and my wife had a fight yesterday.",
+        "message2": "Oh yea, about what?",
+        "message3": "You see, I wanted to watch the game but she wanted to watch a movie",
+        "message4": "So, how was the movie then?"
+      }
+    ]
+  },
+  {
+    "name": "Jude",
+    "src": "5",
+    "messages": [
+      {
+        "message1": "Hi Jude, How are you mate?",
+        "message2": "I’m good and happy to hear from you after a long time.",
+        "message3": "Yes Jude, I’m little busy here. Anyway, I called you because wanna congratulate you.",
+        "message4": "Thank you very much. It’s so nice.",
+        "message5": "Today is one of the happiest days in your life. So enjoy the day.",
+        "message6": "But my marriage is fixed for tomorrow",
+        "message7": "That’s why I said, today is one of your happiest days"
+      }
+    ]
+  }
+]

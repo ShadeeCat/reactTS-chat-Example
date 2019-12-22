@@ -1,28 +1,30 @@
 import React from 'react';
-	
-export class Login extends React.Component {
+import { useHistory } from "react-router"
 
+import '../assets/styles/login.css';
 	
-	submitForm = (e) => {
+export const Login = () => {
+	let history = useHistory()
+
+	const submitForm = (e) => {
 		e.preventDefault()
+		history.push("/home")
 	}
-	render() {
-		return <form onSubmit={this.submitForm}>
-			<label>
-				<input type="text" />
+	
+	return <div className="form_container" >
+		<form onSubmit={submitForm}>
+			<h1>Sign In</h1>
+			<label htmlFor="login">
+				<span></span>
+				<input className="form-control form-control-lg" type="text" id="login" />
+			</label>
+			<label htmlFor="password">
+				<span></span>
+				<input className="form-control form-control-lg" type="password" id="password" />
 			</label>
 			<label>
-				<input type="text" />
-			</label>
-			<label>
-				<input type="submit" />
+				<button type="submit">Login</button>
 			</label>
 		</form>
-	}	
+	</div>
 }
-// fetch('/post-validation', {
-//     method: 'POST',
-//     body: `username=${ $0.value }`
-// }).then(r => if (r.status === 404) {
-//     // redirect
-// })
