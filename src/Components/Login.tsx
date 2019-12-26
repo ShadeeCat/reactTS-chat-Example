@@ -1,26 +1,38 @@
 import React from 'react';
 import { useHistory } from "react-router"
 
-import '../assets/styles/login.css';
+import './styles/login.css';
 	
 export const Login = () => {
+
+	const usernameInput = React.createRef<HTMLInputElement>()
+	const passInput = React.createRef<HTMLInputElement>()
+
 	let history = useHistory()
 
 	const submitForm = (e) => {
 		e.preventDefault()
-		history.push("/home")
+		
+		fetch('/post-validation', {
+		    method: 'POST',
+		    body: `username=${ usernameInput.current!.value }&password=${ passInput.current!.value }`
+		}).then(r => {
+			if (r.status === 404) {
+				// redirect
+				history.push("/home")
+			}
+		})
 	}
-	
 	return <div className="form_container" >
 		<form onSubmit={submitForm}>
 			<h1>Sign In</h1>
 			<label htmlFor="login">
 				<span></span>
-				<input className="form-control form-control-lg" type="text" id="login" />
+				<input ref={ usernameInput } className="form-control form-control-lg" type="text" id="login" />
 			</label>
 			<label htmlFor="password">
 				<span></span>
-				<input className="form-control form-control-lg" type="password" id="password" />
+				<input ref={ passInput } className="form-control form-control-lg" type="password" id="password" />
 			</label>
 			<label>
 				<button type="submit">Login</button>

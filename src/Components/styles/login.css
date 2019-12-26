@@ -1,5 +1,5 @@
 .form_container {
-  	background-image: url("../images/bg-login.jpg");
+  	background-image: url("/images/bg-login.jpg");
 	height: 100vh;
 }
 .form_container > form {
@@ -28,10 +28,10 @@
     width: 2rem;
 }
 .form_container > form label[for=login] span:before {
-	content: url(../images/login-pic.svg);
+	content: url(/images/login-pic.svg);
 }
 .form_container > form label[for=password] span:before {
-	content: url(../images/password.svg);
+	content: url(/images/password.svg);
 }
 .form_container > form input {
     width: 100%;
