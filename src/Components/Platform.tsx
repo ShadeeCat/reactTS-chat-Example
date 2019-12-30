@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { PrivateChat } from "./Chat"
+import { PrivateChat } from "./PrivateChat"
 
 import './styles/platform.css';
-	
+
 	export interface User {
 		id: number,
 		name: string,
@@ -33,10 +33,16 @@ export class Platform extends React.Component<{}, PlatformState> {
 			this.setState({ usersList: data });
 		})
 	}
-	enterChat = (id) => {
+	enterChat = id => {
 		this.setState({
 			showChat: true,
 			chatUserId: id
+		})
+	}
+	closeChat = () => {
+		this.setState({
+			showChat: false,
+			chatUserId: null
 		})
 	}
 	render() {
@@ -44,7 +50,7 @@ export class Platform extends React.Component<{}, PlatformState> {
 		<div>
 			{
 				this.state.usersList.map(user => <div key={user.id} onClick={ e => this.enterChat(user.id) } >
-					<img src={ `/images/users-photos/${user.src}` } />
+					<img src={ `/images/users-photos/${user.src}` } alt={user.name} />
 					<div>
 						<div>
 							<h4>{ user.name }</h4>
@@ -56,10 +62,11 @@ export class Platform extends React.Component<{}, PlatformState> {
 				</div>)
 			}
 			</div>
-			{ this.state.showChat ? <PrivateChat 
-				userId={this.state.chatUserId!} 
-				userData={ this.state.usersList.find(u => u.id === this.state.chatUserId)! } 
-				/> : null 
+			{ this.state.showChat ? <PrivateChat
+				closePrivateChat={this.closeChat}
+				userId={this.state.chatUserId!}
+				userData={ this.state.usersList.find(u => u.id === this.state.chatUserId)! }
+				/> : null
 			}
 		</div>
 	}

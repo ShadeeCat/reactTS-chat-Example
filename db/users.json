@@ -1,0 +1,49 @@
+{
+	"users":[
+			  {
+	    "id": 1,
+	    "name": "Maria",
+	    "last_message": {
+	      "message": "That's my life without you",
+	      "date": "2019-01-01 12:01:00"
+	    },
+	    "src": "1.jpeg"
+	  },
+	  {
+	    "id": 2,
+	    "name": "Sara",
+	    "last_message": {
+	      "message": "Two mammals",
+	      "date": "2019-01-01 12:02:00"
+	    },
+	    "src": "2.jpeg"
+	  },
+	  {
+	    "id": 3,
+	    "name": "David",
+	    "last_message": {
+	      "message": "No idea...",
+	      "date": "2019-01-01 12:03:00"
+	    },
+	    "src": "3.jpg"
+	  },
+	  {
+	    "id": 4,
+	    "name": "Michael",
+	    "last_message": {
+	      "message": "So, how was the movie then?",
+	      "date": "2019-01-01 12:04:00"
+	    },
+	    "src": "4.jpg"
+	  },
+	  {
+	    "id": 5,
+	    "name": "Jude",
+	    "last_message": {
+	      "message": "That’s why I said, today is one of your happiest days",
+	      "date": "2019-01-01 12:05:00"
+	    },
+	    "src": "5.jpg"
+	  }
+	]
+}

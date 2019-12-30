@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from "react-router"
 
 import './styles/login.css';
-	
+
 export const Login = () => {
 
 	const usernameInput = React.createRef<HTMLInputElement>()
@@ -12,7 +12,7 @@ export const Login = () => {
 
 	const submitForm = (e) => {
 		e.preventDefault()
-		
+
 		fetch('/post-validation', {
 		    method: 'POST',
 		    body: `username=${ usernameInput.current!.value }&password=${ passInput.current!.value }`
@@ -28,11 +28,11 @@ export const Login = () => {
 			<h1>Sign In</h1>
 			<label htmlFor="login">
 				<span></span>
-				<input ref={ usernameInput } className="form-control form-control-lg" type="text" id="login" />
+				<input ref={ usernameInput } type="text" id="login" />
 			</label>
 			<label htmlFor="password">
 				<span></span>
-				<input ref={ passInput } className="form-control form-control-lg" type="password" id="password" />
+				<input ref={ passInput } type="password" id="password" />
 			</label>
 			<label>
 				<button type="submit">Login</button>
